@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slider Background Example</title>
+
+  <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+  <!-- Swiper CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/pages/about.css">
+  <link rel="stylesheet" href="./css/utili/divider.css">
+  <link rel="stylesheet" href="./css/utili/aboutSwiperSlider.css">
+  <link rel="stylesheet" href="./css/utili/slider.css">
+  <link rel="stylesheet" href="./css/pages/nav.css">
+  <link rel="stylesheet" href="./css/pages/amenities.css">
+
+
+  <style>
+  </style>
+
+</head>
+<body>
+
+    <!-- navigation and landing -->
+    <div class="nav-land">
+        <div class="navbar">
+            <div class="navbar-container">
+                <a href="./index.html" class="navbar-logo">GITABITAN</a>
+                <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                <li><a href="./index.html" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="./html/gallery.html">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/sliderPics/family.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/sliderPics/outside.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/sliderPics/street.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/sliderPics/droneView.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <button>Enquire Now</button>
+    </div>
+
+    <!-- about / why gitabitan -->
+    <div class="section-divider">
+    <hr>
+    <h2 id="about">WHY GITABITAN</h2>
+    <hr>
+    </div>
+    <div class="aboutContainer">
+        <div class="aboutFirst">
+            <div class="aboutFirstImage">
+                <img src="./images/sliderPics/bed.jpg" alt="">
+            </div>
+            <div class="aboutFirstContent">
+                <div class="textWrap"><h2>Who We Are?</h2></div>
+                <h3>Turning Dreames into <br> Reality</h3>
+                <p>Founded in October 2024 and based in Howrah, West Bengal, Sunrise Realty is a <br> fast-growing real estate company driven by trust, quality, and innovation. We <br> create more than buildings—we build communities and turn dreams into reality.</p>
+            </div>
+        </div>
+        <div class="aboutSecond">
+            <div class="aboutSecondContent">
+                <div class="textWrap"><h2>Who We Are?</h2></div>
+                <h3>Turning Dreames into <br> Reality</h3>
+                <p>Founded in October 2024 and based in Howrah, West Bengal, Sunrise Realty is a <br> fast-growing real estate company driven by trust, quality, and innovation. We <br> create more than buildings—we build communities and turn dreams into reality.</p>
+            </div>
+            <div class="aboutSecondImage">
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/sliderPics/street.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/sliderPics/couple.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/sliderPics/family.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/sliderPics/table.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <!-- aminities -->
+    <div class="section-divider">
+    <hr>
+    <h2 id="about">AMENITIES</h2>
+    <hr>
+    </div>
+    <div class="amenitiesContainer">
+        <div class="amenities-grid">
+            <div class="gym"><img src="../images/Amenities/garden.png" alt=""><h5>LANDSCAPED GARDENS</h5></div>
+            <div class="gym"><img src="../images/Amenities/playground.png" alt=""><h5>CHILDREN'S PLAY AREA</h5></div>
+            <div class="gym"><img src="../images/Amenities/pool.png" alt=""><h5>SWIMMING POOL</h5></div>
+            <div class="gym"><img src="../images/Amenities/clubhouse.png" alt=""><h5>CLUBHOUSE</h5></div>
+            <div class="gym"><img src="../images/Amenities/gym.png" alt=""><h5>GYM</h5></div>
+            <div class="gym"><img src="../images/Amenities/yoga.png" alt=""><h5>YOGA AND MEDITATION ZONE</h5></div>
+            <div class="gym"><img src="../images/Amenities/cycle.png" alt=""><h5>CYCLING TRACK</h5></div>
+            <div class="gym"><img src="../images/Amenities/library.png" alt=""><h5>LIBRARY</h5></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/about.js"></script>
+</body>
+</html>
