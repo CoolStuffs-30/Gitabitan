@@ -1,0 +1,137 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.aboutContainer img{
+    height: 33rem;
+    width: 33rem;
+    object-fit: cover;
+}
+.aboutContainer h3{
+    font-size: 44px;
+}
+.aboutContainer p{
+    font-size: 16px;
+}
+.aboutContainer h2{
+    font-size: 16px;
+}
+
+
+
+
+.aboutFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.aboutFirstContent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    
+}
+.aboutFirstContent > *{
+    margin: 0;
+}
+.aboutFirstImage{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.textWrap{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(245, 194, 107);
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 10rem;
+}
+
+
+.aboutSecond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.aboutSecondContent > *{
+    margin: 0;
+}
+.aboutSecondContent{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+
+/* Styles for mobile devices (phones) */
+@media (max-width: 767px) {
+  .aboutContainer{
+    padding: 1rem;
+  }
+ .aboutContainer img{
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .aboutFirst,.aboutSecond{
+    flex-direction: column;
+  }
+  .aboutFirstContent{
+    align-items: center;
+  }
+  .aboutFirstContent h3{
+    text-align: center;
+  }
+  .aboutFirstContent p{
+    text-align: center;
+  }
+
+  .aboutSecondContent{
+    align-items: center;
+  }
+  .aboutSecondContent h2,h3,p{
+    text-align: center;
+  }
+  .aboutFirstContent br{
+    display: none;
+  }
+  .aboutSecondContent br{
+    display: none;
+  }
+
+
+
+
+
+
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .aboutContainer{
+    padding: 1rem;
+  }
+  .aboutContainer img{
+    height: 22rem;
+    width: 22rem;
+  }
+  .aboutFirstContent br{
+    display: none;
+  }
+  .aboutSecondContent br{
+    display: none;
+  }
+  .aboutSecondContent{
+    width: 450px;
+  }
+}
