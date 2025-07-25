@@ -1,0 +1,73 @@
+   /* FAB Container */
+    .fab-container {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      z-index: 1;
+    }
+
+    /* Main FAB Button */
+    .fab-main {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-left: 100px;
+      background: linear-gradient(145deg, #333 0%, #555 100%);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .fab-main:hover {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+    }
+
+    .fab-main .fab-icon {
+      transition: transform 0.3s ease;
+      display: inline-block;
+    }
+
+    .fab-main.active .fab-icon {
+      transform: rotate(45deg);
+    }
+
+    /* FAB Options */
+    .fab-options {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-bottom: 10px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+    }
+
+    .fab-options.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .fab-option {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px 0;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+    }
+
+    .fab-option:hover {
+      background: #555;
+    }
