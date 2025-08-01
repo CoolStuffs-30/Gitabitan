@@ -1,8 +1,8 @@
    /* FAB Container */
     .fab-container {
       position: absolute;
-      bottom: 40px;
-      right: 40px;
+      bottom: 20px;
+      right: 20px;
       z-index: 1;
     }
 
@@ -30,12 +30,15 @@
     }
 
     .fab-main .fab-icon {
-      transition: transform 0.3s ease;
-      display: inline-block;
+      transition: transform 0.3s ease !important;
+      display: inline-block !important;
+      color: #fff !important;
+      font-size: 2.3rem;
+      text-align: center;
     }
 
     .fab-main.active .fab-icon {
-      transform: rotate(45deg);
+      transform: rotate(45deg) !important;
     }
 
     /* FAB Options */
