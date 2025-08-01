@@ -50,11 +50,19 @@
   color: #f0c040;
 }
 
-.footerConatiner .address-content p,
-.footerConatiner .phone-content p,
-.footerConatiner .email-content p {
+.footerConatiner .address-content a,
+.footerConatiner .phone-content a,
+.footerConatiner .email-content a {
   font-size: 0.85rem;
-  line-height: 1.4;
+  line-height: 2;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: start;
+}
+.footerConatiner .address-logo,.footerConatiner .email-logo,.footerConatiner .phone-logo{
+  margin-top: 0.25rem;
 }
 
 /* Col 2 — CONNECT */
@@ -78,18 +86,20 @@
   gap: 0.7rem;
 }
 
-.footerConatiner .col-2-content button {
+.footerConatiner .col-2-content a {
   background: #f0c040;
   color: #111;
   border: none;
   padding: 10px 20px;
+  text-decoration: none;
   font-size: 0.8rem;
   cursor: pointer;
+  text-align: center;
   border-radius: 4px;
   transition: background 0.3s, transform 0.3s;
 }
 
-.footerConatiner .col-2-content button:hover {
+.footerConatiner .col-2-content a:hover {
   background: #fff;
   transform: translateY(-2px);
 }
@@ -202,7 +212,7 @@
     justify-content: center;
   }
 
-  .footerConatiner .col-2-content button {
+  .footerConatiner .col-2-content a {
     width: auto;
   }
 
@@ -217,6 +227,12 @@
   }
   .footerConatiner .col-2 {
     gap: 1rem;
+  }
+  .footerConatiner .phone{
+    margin-right: 1.2rem;
+  }
+  .footerConatiner .email{
+    margin-right: 0.2rem; 
   }
 }
 
@@ -241,6 +257,7 @@
   .footerConatiner .col-2 {
     gap: 1rem;
   }
+
 }
 
 
