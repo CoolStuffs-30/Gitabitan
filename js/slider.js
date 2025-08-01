@@ -1,5 +1,6 @@
     var swiper = new Swiper(".nav-land .mySwiper", {
       spaceBetween: 30,
+      lazy: true,
       centeredSlides: true,
       autoplay: {
         delay: 3000,
