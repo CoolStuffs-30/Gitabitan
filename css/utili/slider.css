@@ -1,0 +1,45 @@
+.nav-land{
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-land .swiper {
+    height: 100%;
+    position: absolute;
+    width: 100vw;
+}
+
+.nav-land .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-land .swiper-slide img {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    /* Make the image fill the slide */
+    transform: scale(1);
+    transition: transform 10s ease; /* slow zoom over time */
+}
+
+.nav-land .swiper-slide-active img {
+  transform: scale(1.1); /* slightly zoomed in */
+}
+
+.nav-land .swiper-pagination-bullet-active {
+  background-color: rgb(128, 128, 128); /* different color for active dot, if you want */
+}

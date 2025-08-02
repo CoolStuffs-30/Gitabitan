@@ -1,0 +1,107 @@
+/* ✅ Base */
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f9f6f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ✅ Display: grid layout */
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+/* ✅ Force same aspect ratio on items */
+.masonry-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1.5; /* adjust as needed, e.g. 16/9 or 1/1 for square */
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+/* ✅ Make image/video fill box evenly */
+.masonry-item img,
+.masonry-item video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.masonry-item:hover img,
+.masonry-item:hover video {
+  transform: scale(1.05);
+  filter: brightness(80%);
+}
+
+/* ✅ Responsive: smaller cards on small screens */
+@media (max-width: 1024px) {
+  .masonry {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* ✅ Lightbox overlay stays same */
+.lightbox {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  overflow-y: auto;
+}
+
+.lightbox.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.lightbox:after {
+  content: "✕";
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ✅ Optional: Section heading */
+.section-divider-gallery {
+  margin-top: 7rem;
+}
+
+.section-divider-gallery h2 {
+  font-size: 1.5rem;
+}

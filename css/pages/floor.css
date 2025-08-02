@@ -1,0 +1,272 @@
+/* Tabs styles */
+.floorContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f6f3;
+}
+.tabs {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 0;
+    color: #999;
+    position: relative;
+}
+
+.tab.active {
+    color: #000;
+}
+
+.indicator {
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+    background: goldenrod;
+    transition: all 0.3s ease;
+}
+
+.content {
+    max-width: 100%;
+    background-color: #f9f6f3;
+}
+
+.tab-content {
+    display: none;
+}
+.tab-content p{
+    color: gray;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.ground {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Floor layout */
+.floor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 5%;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.floor__text {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.floor__intro .floor__area {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+/* .floor__intro .floor__desc {
+    font-size: 1rem;
+    line-height: 1.5;
+} */
+
+.floor__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.floor__details div {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.floor__details span {
+    font-size: 1rem;
+    color: gray;
+}
+
+.floor__price {
+    color: goldenrod !important;
+    font-weight: bold;
+}
+
+.floor__btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background: goldenrod;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.floor__btn:hover {
+    background: #b8860b;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.floor__image {
+    flex: 1 1 300px;
+    max-width: 500px;
+    /* aspect-ratio: 4/3; */
+    overflow: hidden;
+}
+
+.floor__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 4px;
+}
+
+
+.floor__details .fd-left{
+    font-size: 1rem;
+    font-weight: 650;
+}
+.floor__details .fd-right{
+    font-size: 1rem;
+    color: goldenrod;
+    text-align: end;
+}
+.floor__area{
+    font-weight: 500;
+}
+
+
+    /* For screens 880px and smaller */
+    @media (max-width: 880px) {
+    .floor {
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+
+    .floor__text,
+    .floor__image {
+    flex: 1 1 100%;
+    max-width: 100%;
+    }
+
+    .floor__details div {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .floor__details span {
+    margin: 4px 0;
+    }
+
+    .floor__btn {
+    align-self: center;
+    }
+  .tabs {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  .tab {
+    flex: 0 0 auto;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .indicator {
+    position: absolute;
+    height: 3px;
+    /* background: linear-gradient(90deg, #00c6ff, #0072ff); */
+    background-color: goldenrod;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: all 0.3s cubic-bezier(0.25, 1.5, 0.5, 1);
+    border-radius: 2px;
+  }
+
+  .floor__details .fd-left{
+    font-size: 1.2rem;
+    }
+    .floor__details .fd-right{
+        text-align: center;
+    }
+}
+
+
+
+
+
+    /* For screens 480px and smaller */
+    @media (max-width: 480px) {
+    body {
+    padding: 20px;
+    }
+
+    .tabs {
+    gap: 20px;
+    align-items: center;
+    }
+    /* .indicator {
+    display: none;
+    } */
+
+    .floor {
+    padding: 1rem 2%;
+    }
+
+    .floor__intro .floor__area {
+    font-size: 1.5rem;
+    }
+
+    /* .floor__intro .floor__desc {
+    font-size: 0.9rem;
+    } */
+
+    .floor__details span {
+    font-size: 0.9rem;
+    }
+
+    .floor__btn {
+    font-size: 0.9rem;
+    width: 100%;
+    }
+    }
