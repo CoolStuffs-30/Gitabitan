@@ -1,458 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  <link rel="preload" as="image" href="./images/sliderPics/slide-pc/slider-pc-1.webp">
-  <title>GITABITAN</title>
 
-  <!-- Fonts -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- title -->
+    <title>Buy Bungalows & Apartments in Santiniketan | Gitanjali-Gitabitan</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Discover premium bungalows and apartments for sale in Santiniketan. Gitanjali-Gitabitan offers luxury homes surrounded by nature and culture. Enquire now!" />
+    <meta name="keywords" content="buy bungalows Santiniketan, apartments Santiniketan, real estate Santiniketan, Gitanjali-Gitabitan" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.yourdomain.com/" />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./images/sliderPics/slide-pc/slider-pc-1.webp">
+    <link rel="preload" as="image" href="./images/sliderPics/slide-pc/slider-pc-2.webp">
+    <link rel="preload" as="image" href="./images/sliderPics/slide-mob/slider-mob-1.webp">
+    <link rel="preload" as="image" href="./images/sliderPics/slide-mob/slider-mob-2.webp">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/pages/about.css">
+    <link rel="stylesheet" href="./css/pages/nav.css">
+    <link rel="stylesheet" href="./css/pages/amenities.css">
+    <link rel="stylesheet" href="./css/pages/floor.css">
+    <link rel="stylesheet" href="./css/pages/nhood.css">
+    <link rel="stylesheet" href="./css/pages/footer.css">
+
+    <link rel="stylesheet" href="./css/utili/divider.css">
+    <link rel="stylesheet" href="./css/utili/aboutSwiperSlider.css">
+    <link rel="stylesheet" href="./css/utili/slider.css">
+    <link rel="stylesheet" href="./css/utili/fab.css">
+    <link rel="stylesheet" href="./css/utili/form.css">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Buy Bungalows & Apartments in Santiniketan | Gitanjali-Gitabitan" />
+    <meta property="og:description" content="Discover premium bungalows and apartments for sale in Santiniketan by Gitanjali-Gitabitan." />
+    <meta property="og:image" content="https://www.yourdomain.com/images/og-image.jpg" />
+    <meta property="og:url" content="https://www.yourdomain.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buy Bungalows & Apartments in Santiniketan | Gitanjali-Gitabitan" />
+    <meta name="twitter:description" content="Discover premium bungalows and apartments for sale in Santiniketan by Gitanjali-Gitabitan." />
+    <meta name="twitter:image" content="https://www.yourdomain.com/images/og-image.jpg" />
+
+    <!-- Favicon -->
+
+        <!-- Standard favicon -->
+        <link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png">
+
+        <!-- High-res PNG for modern browsers -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+
+        <!-- Apple touch icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+
+        <!-- Android Chrome -->
+        <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-chrome-192x192.png">
+
+
+
+
     
-  <!-- Swiper CSS CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="./css/pages/about.css">
-  <link rel="stylesheet" href="./css/pages/nav.css">
-  <link rel="stylesheet" href="./css/pages/amenities.css">
-  <link rel="stylesheet" href="./css/pages/floor.css">
-  <link rel="stylesheet" href="./css/pages/nhood.css">
-  <link rel="stylesheet" href="./css/pages/footer.css">
+    <style>
+        html{
+            -webkit-text-size-adjust: 100%; /* For Safari/iOS */
+            text-size-adjust: 100%; /* Standard */
+            display: block;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+        body{
+            background-color: #fff !important;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
-  <link rel="stylesheet" href="./css/utili/divider.css">
-  <link rel="stylesheet" href="./css/utili/aboutSwiperSlider.css">
-  <link rel="stylesheet" href="./css/utili/slider.css">
-  <link rel="stylesheet" href="./css/utili/fab.css">
-  <link rel="stylesheet" href="./css/utili/form.css">
+        .amenities-grid {
+        overflow: hidden !important;
+        }
 
+    </style>
 
-  <style>
-    html{
-        -webkit-text-size-adjust: 100%; /* For Safari/iOS */
-        text-size-adjust: 100%; /* Standard */
-        display: block;
-        scroll-behavior: smooth; /* Smooth scrolling */
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Gitanjali-Gitabitan",
+    "image": "https://www.yourdomain.com/images/logo.png",
+    "logo": "https://www.yourdomain.com/images/logo.png",
+    "url": "https://www.yourdomain.com",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bandhlodanga",
+        "addressLocality": "Santiniketan",
+        "addressRegion": "West Bengal",
+        "postalCode": "731235",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.716816441927964,
+        "longitude": 87.6643624641926
+    },
+    "contactPoint": [
+        {
+        "@type": "ContactPoint",
+        "telephone": "+918240704900",
+        "contactType": "customer service",
+        "email": "gitanjaligitabitan@gmail.com",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Bengali" , "Hindi"]
+        },
+        {
+        "@type": "ContactPoint",
+        "telephone": "+916291129296",
+        "contactType": "sales",
+        "email": "gitanjaligitabitan@gmail.com",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Bengali" , "Hindi"]
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://wa.me/918240704900",
+        "https://www.instagram.com/yourpage",
+        "https://www.youtube.com/yourpage",
+        "https://www.99acres.com/gitanjali-gitabitan-bolpur-shantiniketan-npxid-r402436",
+        "https://housing.com/in/buy/projects/page/296600-gitanjali-gitabitan-by-gitanjali-realty-in-santiniketan"
+    ]
     }
-    body{
-        background-color: #fff !important;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .amenities-grid {
-    overflow: hidden !important;
-    }
-
-
-
-
-  </style>
+    </script>
 
 </head>
 <body>
 
     <!-- navigation and landing -->
-    <div class="nav-land" id="nav-land">
-        <div class="navbar">
-            <div class="navbar-container">
-                <h1 class="navbar-logo">
-                    <a href="./index.html">Gitanjali-Gitabitan</a>
-                </h1>
-                <button class="navbar-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                </button>
-                <ul class="navbar-menu">
-                <li><a href="#nav-land" class="active">HOME</a></li>
-                <li><a href="#floor">PROPERTIES</a></li>
-                <li><a href="./html/gallery.html">GALLERY</a></li>
-                <li><a href="#form">CONTACT</a></li>
-                <li><a href="./html/faq.html">FAQs</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class="firstSlidePic swiper-lazy" data-src="./images/sliderPics/slide-pc/slider-pc-1.webp" alt="">
-                    <div class="swiper-lazy-preloader"></div>
+    <section id="nav-land">
+        <div class="nav-land">
+            <header class="navbar">
+                <div class="navbar-container">
+                    <h1 class="navbar-logo">
+                        <a href="./index.html">Gitanjali-Gitabitan</a>
+                    </h1>
+                    <button class="navbar-toggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    </button>
+                    <nav>
+                        <ul class="navbar-menu">
+                            <li><a href="#nav-land" class="active">HOME</a></li>
+                            <li><a href="#floor">PROPERTIES</a></li>
+                            <li><a href="./html/gallery.html">GALLERY</a></li>
+                            <li><a href="#form">CONTACT</a></li>
+                            <li><a href="./html/faq.html">FAQs</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="swiper-slide"><img class="secondSlidePic" src="./images/sliderPics/slide-pc/slider-pc-2.webp" alt="" loading="lazy"></div>
-                <div class="swiper-slide"><img class="thirdSlidePic" src="./images/sliderPics/slide-pc/slider-pc-3.webp" alt="" loading="lazy"></div>
-                <div class="swiper-slide"><img class="fourthSlidePic" src="./images/sliderPics/slide-pc/slider-pc-4.webp" alt="" loading="lazy"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
+            </header>
 
-        <div class="fab-container">
-            <div class="fab-options">
-                <button class="fab-option" id="callback">Request a Callback</button>
-                <button class="fab-option" id="callus">Call Us</button>
-            </div>
-            <button class="fab-main">
-                <!-- <span class="fab-icon">+</span> -->
-                <div class="ammenities-icon"><span class="material-symbols-outlined fab-icon">call</span></div>
-            </button>
-        </div>
-    </div>
-
-    <!-- about / why gitabitan -->
-    <div class="section-divider">
-    <hr>
-    <h2 id="about">WHY GITABITAN</h2>
-    <hr>
-    </div>
-
-    <div class="aboutContainer">
-        <div class="aboutContent">
-            <div class="textWrap"><h2>Luxury Living</h2></div>
-            <h3>Inspired by Heritage</h3>
-            <p>Established in 2020 in Kolkata, West Bengal, <strong>Gitanjali Realty</strong> is committed to redefining modern living with premium bungalows and studio apartments in the serene cultural haven of Santiniketan. Our mission is to blend timeless design with sustainable development, creating spaces where families thrive and communities grow. With a strong focus on quality, transparency, and customer trust, we don’t just deliver houses — we craft homes that inspire pride and belonging for generations to come.</p>
-        </div>
-        <div class="aboutImage">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper" aria-label="Showcase of the beauty and surroundings of Santiniketan">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./images/About/QualityCraftsmanship.jpg" alt="">
-                        <p>Quality Craftsmanship</p>
+                        <img class="firstSlidePic swiper-lazy" data-src="./images/sliderPics/slide-pc/slider-pc-1.webp" alt="Gitabitan and various places in Santiniketan">
+                        <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/About/trust.jpg" alt="">
-                        <p>Trust & Transparency</p>
+                        <img class="secondSlidePic" src="./images/sliderPics/slide-pc/slider-pc-2.webp" alt="Maa Kankali and Kankalitala Temple near Gitanjali-Gitabitan">
+                        <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/About/Sustainable.jpg" alt="">
-                        <p>Sustainable Communities</p>
+                        <img class="thirdSlidePic" src="./images/sliderPics/slide-pc/slider-pc-3.webp" alt="Tribal dance and Khoai haat near Gitanjali-Gitabitan">
+                        <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/About/Centric.jpg" alt="">
-                        <p>Customer-Centric Approach</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/About/Innovation.jpg" alt="">
-                        <p>Innovation & Excellence</p>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/About/Community.jpg" alt="">
-                        <p>Community & Belonging</p>
+                        <img class="fourthSlidePic" src="./images/sliderPics/slide-pc/slider-pc-4.webp" alt="Kopai river near Gitanjali-Gitabitan">
+                        <div class="swiper-lazy-preloader"></div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
-        </div>    
-    </div>
-    
-    <!-- aminities -->
-    <div class="section-divider">
-    <hr>
-    <h2 id="aminities">AMENITIES</h2>
-    <hr>
-    </div>
-    <div class="amenitiesContainer">
-        <div class="amenities-grid">
-            <div class="ammenities-icon"><span class="material-symbols-outlined">Temple_Buddhist</span><h5>SURYA MANDIR</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">temple_hindu</span><h5>MAA DURGA TEMPLE</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">local_florist</span><h5>HERBAL GARDENS</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">playground_2</span><h5>CHILDREN'S PARK</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">pool</span><h5>SWIMMING POOL</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">person_shield</span><h5>24 HOURS SECURITY</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">electrical_services</span><h5>24 HOURS GENERATOR BACKUP</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">Health_Metrics</span><h5>24 HOURS DOCTOR ON CALL</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">water_drop</span><h5>24 HOURS WATER SUPPLY</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">directions_car</span><h5>24 HOURS PICKUP & DROP FACILITY</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">playing_cards</span><h5>CLUBHOUSE</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">playground</span><h5>SMALL PLAY GROUND</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">self_improvement</span><h5>YOGA AND MEDITATION ZONE</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">kayaking</span><h5>BOATING PARK</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">nutrition</span><h5>FRUIT GARDEN</h5></div>
-            <div class="ammenities-icon"><span class="material-symbols-outlined">Directions_Run</span><h5>GREEN WALK PATHWAY</h5></div>
-        </div>
-    </div>
 
-    <!-- floor planning -->
-
-    <div class="section-divider">
-    <hr>
-    <h2 id="floor">PROPERTIES</h2>
-    <hr>
-    </div>
-
-    <div class="floorContainer">
-        <div class="tabs">
-            <div class="tab active">STUDIO APARTMENT</div>
-            <div class="tab">1BHK</div>
-            <div class="tab">2BHK SMALL</div>
-            <div class="tab">2BHK MEDIUM</div>
-            <div class="tab">3BHK</div>
-            <div class="tab">4BHK</div>
-            <div class="indicator"></div>
-        </div>
-    </div>
-
-    <div class="content">
-
-        <!-- studio -->
-        <div class="tab-content active">
-            <div class="floor">
-                <div class="floor__text">
-                    <div class="floor__intro">
-                            <p class="floor__area">Deluxe Studio Apartment</p>
-                    </div>
-
-                    <div class="floor__details">
-                        <div><span class="fd-left">Bedroom</span><span class="fd-right">1 Master</span></div>
-                        <div><span class="fd-left">Bath</span><span class="fd-right">1</span></div>
-                        <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                        <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                        <div><span class="fd-left">Small Pantry</span><span class="fd-right">Available</span></div>
-                        <div><span class="fd-left">Price</span><span class="floor__price">&#8377;10.8 Lac</span></div>
-                    </div>
-                    <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%20Deluxe%20Studio%20Apartment.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
+            <div class="fab-container">
+                <div class="fab-options">
+                    <button class="fab-option" id="callback">Request a Callback</button>
+                    <button class="fab-option" id="callus">Call Us</button>
                 </div>
-                
-                <div class="floor__image">
-                    <img src="./images/floor/studio.jpg" alt="Ground Floor Plan">
-                </div>
+                <button class="fab-main">
+                    <!-- <span class="fab-icon">+</span> -->
+                    <div class="ammenities-icon"><span class="material-symbols-outlined fab-icon">call</span></div>
+                </button>
             </div>
         </div>
+    </section>
 
-        <!-- 1bhk -->
-        <div class="tab-content">
-        <div class="floor">
-            <div class="floor__text">
-            <div class="floor__intro">
-                <p class="floor__area">Deluxe Apartment</p>
-            </div>
-            <div class="floor__details">
-                <div><span class="fd-left">Bedroom</span><span class="fd-right">1 Master</span></div>
-                <div><span class="fd-left">Bath</span><span class="fd-right">1</span></div>
-                <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
-                <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                <div><span class="fd-left">Price</span><span class="floor__price">&#8377; 15.8 Lac</span></div>
-            </div>
-            <!-- <button class="floor__btn" id="bhk-1">I AM INTERESTED</button> -->
-             <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%20Deluxe%20Apartment.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
-
-            </div>
-            <div class="floor__image">
-            <img src="./images/floor/1bhk.jpg" alt="Basement Floor Plan">
-            </div>
-        </div>
+    <!-- about / why gitabitan -->
+    <section id="about">
+        <div class="section-divider">
+        <hr>
+        <h2>WHY GITABITAN</h2>
+        <hr>
         </div>
 
-        <!-- 2bhk-small -->
-        <div class="tab-content">
-            <div class="floor">
-                <div class="floor__text">
-                    <div class="floor__intro">
-                            <p class="floor__area">Duplex Bungalow</p>
+        <div class="aboutContainer">
+            <div class="aboutContent">
+                <div class="textWrap"><h2>Luxury Living</h2></div>
+                <h3>Inspired by Heritage</h3>
+                <p>Established in 2020 in Kolkata, West Bengal, <strong>Gitanjali Realty</strong> is committed to redefining modern living with premium bungalows and studio apartments in the serene cultural haven of Santiniketan. Our mission is to blend timeless design with sustainable development, creating spaces where families thrive and communities grow. With a strong focus on quality, transparency, and customer trust, we don’t just deliver houses — we craft homes that inspire pride and belonging for generations to come.</p>
+            </div>
+            <div class="aboutImage">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/About/QualityCraftsmanship.jpg" alt="Two workers working at Gitanjali-Gitabitan site" loading="lazy">
+                            <p>Quality Craftsmanship</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/About/trust.jpg" alt="Gitanjali-Gitabitan prioritizes transparency and trust with clients" loading="lazy">
+                            <p>Trust & Transparency</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/About/Sustainable.jpg" alt="Gitanjali-Gitabitan uses sustainable materials" loading="lazy">
+                            <p>Sustainable Communities</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/About/Centric.jpg" alt="In Gitanjali-Gitabitan customer's needs always comes first" loading="lazy">
+                            <p>Customer-Centric Approach</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/About/Innovation.jpg" alt="In Gitanjali-Gitabitan , we thrive to innovate new things" loading="lazy">
+                            <p>Innovation & Excellence</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/About/Community.jpg" alt="Gitanjali-Gitabitan has a very big and healthy community" loading="lazy">
+                            <p>Community & Belonging</p>
+                        </div>
                     </div>
-
-                <div class="floor__details">
-                    <div><span class="fd-left">Land Area</span><span class="fd-right">1080 sq ft (1.5 katha)</span></div>
-                    <div><span class="fd-left">Construction Area</span><span class="fd-right">700 sq ft</span></div>
-                    <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Front Deck, <br>Kitchen, <br>Toilet</span></div>
-                    <div><span class="fd-left">First Floor</span><span class="fd-right">1 Master Bedroom,<br> Attached Toilet,<br>Open Roof</span></div>
-                    <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Price</span><span class="floor__price">&#8377;32 Lac</span></div>
-                    </div>
-                    <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%202BHK%20Duplex%20Bungalow(small).%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
                 </div>
-                
-                <div class="floor__image">
-                    <img src="./images/floor/2-small.jpg" alt="Ground Floor Plan">
-                </div>
-            </div>
-        </div>
-
-        <!-- 2bhk-medium -->
-        <div class="tab-content">
-            <div class="floor">
-                <div class="floor__text">
-                    <div class="floor__intro">
-                            <p class="floor__area">Duplex Bungalow</p>
-                    </div>
-
-                <div class="floor__details">
-                    <div><span class="fd-left">Land Area</span><span class="fd-right">1440 sq ft (2 katha)</span></div>
-                    <div><span class="fd-left">Construction Area</span><span class="fd-right">1100 sq ft</span></div>
-                    <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Kitchen, <br>Toilet</span></div>
-                    <div><span class="fd-left">First Floor</span><span class="fd-right">1 Master Bedroom,<br> Attached Toilet,<br>Balcony</span></div>
-                    <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Price</span><span class="floor__price">&#8377;48 Lac</span></div>
-                    </div>
-                    <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%202BHK%20Duplex%20Bungalow(medium).%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
-                </div>
-                
-                <div class="floor__image">
-                    <img src="./images/floor/2-mid.jpg" alt="Ground Floor Plan">
-                </div>
-            </div>
-        </div>
-
-        <!-- 3bhk -->
-        <div class="tab-content">
-            <div class="floor">
-                <div class="floor__text">
-                    <div class="floor__intro">
-                        <p class="floor__area">Deluxe Duplex Bungalow</p>
-                    </div>
-
-                <div class="floor__details">
-                    <div><span class="fd-left">Land Area</span><span class="fd-right">1880 sq ft (2.5 katha)</span></div>
-                    <div><span class="fd-left">Construction Area</span><span class="fd-right">1650 sq ft</span></div>
-                    <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Bedroom,<br> Living & Drawing,<br>Front Garden ,<br>Kitchen, <br>Toilet</span></div>
-                    <div><span class="fd-left">First Floor</span><span class="fd-right">2 Master Bedroom,<br> 2 Attached Toilet</span></div>
-                    <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Price</span><span class="floor__price">&#8377;68 Lac</span></div>
-                    </div>
-                    <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%203BHK%20Deluxe%20Duplex%20Bungalow.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
-                </div>
-                
-                <div class="floor__image">
-                    <img src="./images/floor/3bhk.jpg" alt="Ground Floor Plan">
-                </div>
-            </div>
-        </div>
-
-        <!-- 4bhk -->
-        <div class="tab-content">
-            <div class="floor">
-                <div class="floor__text">
-                    <div class="floor__intro">
-                            <p class="floor__area">Super Deluxe Duplex Bungalow</p>
-                    </div>
-
-                <div class="floor__details">
-                    <div><span class="fd-left">Land Area</span><span class="fd-right">2160 sq ft (3 katha)</span></div>
-                    <div><span class="fd-left">Construction Area</span><span class="fd-right">2200 sq ft</span></div>
-                    <div><span class="fd-left">Ground Floor</span><span class="fd-right">2 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Kitchen, <br>Toilet</span></div>
-                    <div><span class="fd-left">First Floor</span><span class="fd-right">2 Master Bedroom,<br>Living & Drawing,<br> 2 Attached Toilet</span></div>
-                    <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
-                    <div><span class="fd-left">Price</span><span class="floor__price">&#8377;88 Lac</span></div>
-                    </div>
-                    <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%204BHK%20Deluxe%20Duplex%20Bungalow.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank">I AM INTERESTED</a>
-                </div>
-                
-                <div class="floor__image">
-                    <img src="./images/floor/4bhk.jpg" alt="Ground Floor Plan">
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <!-- NeighbourHood -->
-
-    <div class="section-divider">
-    <hr>
-    <h2 id="nHood">Neighbourhood</h2>
-    <hr>
-    </div>
-
-    <div class="nHoodContainer">
-        <div class="nHood-col">
-            <div class="nHood-row">
-            <span class="material-symbols-outlined">school</span>
-            <div class="nHood-row-text">
-                <p class="nHoodFirstText">Visva-Bharti</p>
-                <p class="nHoodSecondText">2.5 km - University</p>
-            </div>
-            </div>
-            <div class="nHood-row">
-            <span class="material-symbols-outlined">directions_subway</span>
-            <div class="nHood-row-text">
-                <p class="nHoodFirstText">Prantik Station</p>
-                <p class="nHoodSecondText">2.5 km - Railway Station</p>
-            </div>
-            </div>
-        </div>
-        <div class="nHood-col">
-            <div class="nHood-row">
-            <span class="material-symbols-outlined">festival</span>
-            <div class="nHood-row-text">
-                <p class="nHoodFirstText">Khoai Haat</p>
-                <p class="nHoodSecondText">2.5 km - Market</p>
-            </div>
-            </div>
-            <div class="nHood-row">
-            <span class="material-symbols-outlined">storefront</span>
-            <div class="nHood-row-text">
-                <p class="nHoodFirstText">Goalpara Riverside Haat</p>
-                <p class="nHoodSecondText">750 m - Market</p>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-    <!-- form -->
-    <div class="section-divider">
-    <hr>
-    <h2 id="form">ASK US ANYTHING</h2>
-    <hr>
-    </div>
-
-    <section class="contact">
-        <div class="container">
-        <!-- <h1>Contact Us</h1>
-        <p>Fill out the form below and we’ll get back to you shortly.</p> -->
-        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
-            <input type="hidden" name="access_key" value="46eab0bc-844f-4526-9b72-09be3abaa54e" />
-            <div class="row">
-            <div class="input-group">
-                <label for="fname" class="ipText">First Name</label>
-                <input type="text" id="fname" name="name" placeholder="John" required>
-            </div>
-            <div class="input-group">
-                <label for="lname" class="ipText">Last Name</label>
-                <input type="text" id="lname" name="last_name" placeholder="Doe" required>
-            </div>
-            </div>
-            <div class="row">
-            <div class="input-group">
-                <label for="email" class="ipText">Email</label>
-                <input type="email" id="email" name="email" placeholder="you@example.com" required>
-            </div>
-            <div class="input-group">
-                <label for="phone" class="ipText">Phone</label>
-                <input type="tel" id="phone" name="phone" placeholder="+1 555 123 4567" required>
-            </div>
-            </div>
-            <div class="input-group">
-            <label for="message" class="ipText">Your Message</label>
-            <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea>
-            </div>
-            <button type="submit">Send Message</button>
-            <p id="result"></p>
-        </form>
+            </div>    
         </div>
     </section>
     
+    <!-- aminities -->
+    <section id="aminities">
+        <div class="section-divider">
+        <hr>
+        <h2>AMENITIES</h2>
+        <hr>
+        </div>
+        <div class="amenitiesContainer">
+            <div class="amenities-grid">
+                <div class="ammenities-icon"><span class="material-symbols-outlined">temple_buddhist</span><h4>SURYA MANDIR</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">temple_hindu</span><h4>MAA DURGA TEMPLE</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">local_florist</span><h4>HERBAL GARDENS</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">playground_2</span><h4>CHILDREN'S PARK</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">pool</span><h4>SWIMMING POOL</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">person_shield</span><h4>24 HOURS SECURITY</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">electrical_services</span><h4>24 HOURS GENERATOR BACKUP</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">health_metrics</span><h4>24 HOURS DOCTOR ON CALL</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">water_drop</span><h4>24 HOURS WATER SUPPLY</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">directions_car</span><h4>24 HOURS PICKUP & DROP FACILITY</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">playing_cards</span><h4>CLUBHOUSE</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">playground</span><h4>SMALL PLAY GROUND</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">self_improvement</span><h4>YOGA AND MEDITATION ZONE</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">kayaking</span><h4>BOATING PARK</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">nutrition</span><h4>FRUIT GARDEN</h4></div>
+                <div class="ammenities-icon"><span class="material-symbols-outlined">directions_run</span><h4>GREEN WALK PATHWAY</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- floor planning -->
+    <section id="floor">
+        <div class="section-divider">
+        <hr>
+        <h2>PROPERTIES</h2>
+        <hr>
+        </div>
+
+        <div class="floorContainer">
+            <div class="tabs">
+                <div class="tab active">STUDIO APARTMENT</div>
+                <div class="tab">1BHK</div>
+                <div class="tab">2BHK SMALL</div>
+                <div class="tab">2BHK MEDIUM</div>
+                <div class="tab">3BHK</div>
+                <div class="tab">4BHK</div>
+                <div class="indicator"></div>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <!-- studio -->
+            <div class="tab-content active">
+                <div class="floor">
+                    <div class="floor__text">
+                        <div class="floor__intro">
+                            <p class="floor__area">Deluxe Studio Apartment</p>
+                        </div>
+
+                        <div class="floor__details">
+                            <div><span class="fd-left">Bedroom</span><span class="fd-right">1 Master</span></div>
+                            <div><span class="fd-left">Bath</span><span class="fd-right">1</span></div>
+                            <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                            <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                            <div><span class="fd-left">Small Pantry</span><span class="fd-right">Available</span></div>
+                            <div><span class="fd-left">Price</span><span class="floor__price">&#8377;10.8 Lac</span></div>
+                        </div>
+                        <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%20Deluxe%20Studio%20Apartment.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+                    </div>
+                    
+                    <div class="floor__image">
+                        <img src="./images/floor/studio.jpg" alt="Studio apartment in Gitanjali-Gitabitan, Santiniketan">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1bhk -->
+            <div class="tab-content">
+            <div class="floor">
+                <div class="floor__text">
+                <div class="floor__intro">
+                    <p class="floor__area">Deluxe Apartment</p>
+                </div>
+                <div class="floor__details">
+                    <div><span class="fd-left">Bedroom</span><span class="fd-right">1 Master</span></div>
+                    <div><span class="fd-left">Bath</span><span class="fd-right">1</span></div>
+                    <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                    <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
+                    <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                    <div><span class="fd-left">Price</span><span class="floor__price">&#8377; 15.8 Lac</span></div>
+                </div>
+                <!-- <button class="floor__btn" id="bhk-1">I AM INTERESTED</button> -->
+                <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%20Deluxe%20Apartment.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+
+                </div>
+                <div class="floor__image">
+                <img src="./images/floor/1bhk.jpg" alt="1BHK apartment in Gitanjali-Gitabitan, Santiniketan">
+                </div>
+            </div>
+            </div>
+
+            <!-- 2bhk-small -->
+            <div class="tab-content">
+                <div class="floor">
+                    <div class="floor__text">
+                        <div class="floor__intro">
+                                <p class="floor__area">Duplex Bungalow</p>
+                        </div>
+
+                    <div class="floor__details">
+                        <div><span class="fd-left">Land Area</span><span class="fd-right">1080 sq ft (1.5 katha)</span></div>
+                        <div><span class="fd-left">Construction Area</span><span class="fd-right">700 sq ft</span></div>
+                        <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Front Deck, <br>Kitchen, <br>Toilet</span></div>
+                        <div><span class="fd-left">First Floor</span><span class="fd-right">1 Master Bedroom,<br> Attached Toilet,<br>Open Roof</span></div>
+                        <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Price</span><span class="floor__price">&#8377;32 Lac</span></div>
+                        </div>
+                        <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%202BHK%20Duplex%20Bungalow(small).%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+                    </div>
+                    
+                    <div class="floor__image">
+                        <img src="./images/floor/2-small.jpg" alt="2BHK small duplex bungalow in Gitanjali-Gitabitan, Santiniketan">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2bhk-medium -->
+            <div class="tab-content">
+                <div class="floor">
+                    <div class="floor__text">
+                        <div class="floor__intro">
+                                <p class="floor__area">Duplex Bungalow</p>
+                        </div>
+
+                    <div class="floor__details">
+                        <div><span class="fd-left">Land Area</span><span class="fd-right">1440 sq ft (2 katha)</span></div>
+                        <div><span class="fd-left">Construction Area</span><span class="fd-right">1100 sq ft</span></div>
+                        <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Kitchen, <br>Toilet</span></div>
+                        <div><span class="fd-left">First Floor</span><span class="fd-right">1 Master Bedroom,<br> Attached Toilet,<br>Balcony</span></div>
+                        <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Price</span><span class="floor__price">&#8377;48 Lac</span></div>
+                        </div>
+                        <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%202BHK%20Duplex%20Bungalow(medium).%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+                    </div>
+                    
+                    <div class="floor__image">
+                        <img src="./images/floor/2-mid.jpg" alt="2BHK medium duplex bungalow in Gitanjali-Gitabitan, Santiniketan">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3bhk -->
+            <div class="tab-content">
+                <div class="floor">
+                    <div class="floor__text">
+                        <div class="floor__intro">
+                            <p class="floor__area">Deluxe Duplex Bungalow</p>
+                        </div>
+
+                    <div class="floor__details">
+                        <div><span class="fd-left">Land Area</span><span class="fd-right">1880 sq ft (2.5 katha)</span></div>
+                        <div><span class="fd-left">Construction Area</span><span class="fd-right">1650 sq ft</span></div>
+                        <div><span class="fd-left">Ground Floor</span><span class="fd-right">1 Bedroom,<br> Living & Drawing,<br>Front Garden ,<br>Kitchen, <br>Toilet</span></div>
+                        <div><span class="fd-left">First Floor</span><span class="fd-right">2 Master Bedroom,<br> 2 Attached Toilet</span></div>
+                        <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Price</span><span class="floor__price">&#8377;68 Lac</span></div>
+                        </div>
+                        <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%203BHK%20Deluxe%20Duplex%20Bungalow.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+                    </div>
+                    
+                    <div class="floor__image">
+                        <img src="./images/floor/3bhk.jpg" alt="3BHK deluxe duplex bungalow in Gitanjali-Gitabitan, Santiniketan">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4bhk -->
+            <div class="tab-content">
+                <div class="floor">
+                    <div class="floor__text">
+                        <div class="floor__intro">
+                                <p class="floor__area">Super Deluxe Duplex Bungalow</p>
+                        </div>
+
+                    <div class="floor__details">
+                        <div><span class="fd-left">Land Area</span><span class="fd-right">2160 sq ft (3 katha)</span></div>
+                        <div><span class="fd-left">Construction Area</span><span class="fd-right">2200 sq ft</span></div>
+                        <div><span class="fd-left">Ground Floor</span><span class="fd-right">2 Master Bedroom,<br> Living & Drawing,<br>Front Garden , <br>Kitchen, <br>Toilet</span></div>
+                        <div><span class="fd-left">First Floor</span><span class="fd-right">2 Master Bedroom,<br>Living & Drawing,<br> 2 Attached Toilet</span></div>
+                        <div><span class="fd-left">Parking</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Open Kitchen</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Garden Balcony</span><span class="fd-right">Available</span></div>
+                        <div><span class="fd-left">Price</span><span class="floor__price">&#8377;88 Lac</span></div>
+                        </div>
+                        <a href="https://wa.me/918240704900?text=Hello%2C%20I%20am%20interested%20in%20your%204BHK%20Deluxe%20Duplex%20Bungalow.%20Could%20you%20please%20share%20more%20details%3F" class="floor__btn" target="_blank" rel="noopener noreferrer">I AM INTERESTED</a>
+                    </div>
+                    
+                    <div class="floor__image">
+                        <img src="./images/floor/4bhk.jpg" alt="4BHK super deluxe duplex bungalow in Gitanjali-Gitabitan, Santiniketan">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NeighbourHood -->
+    <section id="nHood">
+        <div class="section-divider">
+        <hr>
+        <h2>Neighbourhood</h2>
+        <hr>
+        </div>
+
+        <div class="nHoodContainer">
+            <div class="nHood-col">
+                <div class="nHood-row">
+                <span class="material-symbols-outlined">school</span>
+                <div class="nHood-row-text">
+                    <a href="https://maps.app.goo.gl/o7kqXwzBxCt8ABoV8"
+                        class="nHoodFirstText"
+                        target="_blank"
+                        rel="noopener noreferrer">Visva-Bharti</a>
+                    <p class="nHoodSecondText">2.5 km - University</p>
+                </div>
+                </div>
+                <div class="nHood-row">
+                <span class="material-symbols-outlined">directions_subway</span>
+                <div class="nHood-row-text">
+                    <a href="https://maps.app.goo.gl/UTUUDqXiMhCvVTbk7"
+                        class="nHoodFirstText"
+                        target="_blank"
+                        rel="noopener noreferrer">Prantik Station</a>
+                    <p class="nHoodSecondText">2.5 km - Railway Station</p>
+                </div>
+                </div>
+            </div>
+            <div class="nHood-col">
+                <div class="nHood-row">
+                <span class="material-symbols-outlined">festival</span>
+                <div class="nHood-row-text">
+                    <a href="https://maps.app.goo.gl/stKDVyaFDcYwrhM67"
+                        class="nHoodFirstText"
+                        target="_blank"
+                        rel="noopener noreferrer">Khoai Haat</a>
+                    <p class="nHoodSecondText">2.5 km - Market</p>
+                </div>
+                </div>
+                <div class="nHood-row">
+                <span class="material-symbols-outlined">storefront</span>
+                <div class="nHood-row-text">
+                    <a href="https://maps.app.goo.gl/rodZVRWRTq73iMPv7"
+                        class="nHoodFirstText"
+                        target="_blank"
+                        rel="noopener noreferrer">Kopai River View Point</a>
+                    <p class="nHoodSecondText">1.5 km - Market</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- form -->
+    <section id="form">
+        <div class="section-divider">
+        <hr>
+        <h2>ASK US ANYTHING</h2>
+        <hr>
+        </div>
+
+        <section class="contact">
+            <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                <input type="hidden" name="access_key" value="e238a2a6-316f-4050-b8ce-8b281e3003fd" />
+                <div class="row">
+                <div class="input-group">
+                    <label for="fname" class="ipText">First Name</label>
+                    <input type="text" id="fname" name="name" placeholder="First Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="lname" class="ipText">Last Name</label>
+                    <input type="text" id="lname" name="last_name" placeholder="Last Name" required>
+                </div>
+                </div>
+                <div class="row">
+                <div class="input-group">
+                    <label for="email" class="ipText">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone" class="ipText">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 555 123 4567" required>
+                </div>
+                </div>
+                <div class="input-group">
+                <label for="message" class="ipText">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p id="result"></p>
+            </form>
+            </div>
+        </section>
+    </section>
+    
+
+
+
+
+
 
     <!-- footer -->
     <div class="section-divider">
@@ -461,87 +582,92 @@
     <hr>
     </div>
 
-    <div class="footerConatiner">
-    <div class="footer-main">
-        
-        <div class="col-1">
+    <footer>
+        <div class="footerConatiner">
+        <div class="footer-main">
+            
+            <div class="col-1">
 
-        <h3>DETAILS</h3>
-        <!-- address -->
-        <div class="address">
-            <div class="address-logo">
-            <span class="material-symbols-outlined">Location_On</span>
+            <h3>DETAILS</h3>
+            <!-- address -->
+            <div class="address">
+                <div class="address-logo">
+                <span class="material-symbols-outlined">Location_On</span>
+                </div>
+                <div class="address-content">
+                <a href="https://maps.app.goo.gl/RnrQNS6TsmXxFyHRA" target="_blank" rel="noopener noreferrer">Bandhlodanga <br>Dist-Birbhum <br class="break-footer"> (SANTINIKETAN) <br>West Bengal 731235</a>
+                </div>
+            </div> 
+
+            <!-- phone -->
+            <div class="phone">
+                <div class="phone-logo">
+                <span class="material-symbols-outlined">Call</span>
+                </div>
+                <div class="phone-content">
+                <a href="tel:+918240704900">+91 8240704900</a>
+                <a href="tel:+916291129296">+91 6291129296</a>
+                <a href="tel:+918910966067">+91 8910966067</a> 
+                </div>
             </div>
-            <div class="address-content">
-            <a href="https://maps.app.goo.gl/RnrQNS6TsmXxFyHRA" target="_blank">Bandhlodanga <br>Dist-Birbhum (SANTINIKETAN) <br>West Bengal 731235</a>
+
+            <!-- e-mail -->
+            <div class="email">
+                <div class="email-logo">
+                <span class="material-symbols-outlined">Mail</span>
+                </div>
+                <div class="email-content">
+                <a href="mailto:gitanjaligitabitan@gmail.com">gitanjaligitabitan@gmail.com</a>
+                </div>
             </div>
-        </div> 
 
-        <!-- phone -->
-        <div class="phone">
-            <div class="phone-logo">
-            <span class="material-symbols-outlined">Call</span>
+            </div> <!-- col-1 -->
+
+            <div class="col-2">
+            <h3>CONNECT TO US</h3>
+            <div class="rest-content">
+                <div class="col-2-content">
+                <a href="https://www.99acres.com/gitanjali-gitabitan-bolpur-shantiniketan-npxid-r402436" target="_blank" rel="nofollow noopener noreferrer">View on <strong>99acres</strong></a>
+                <a href="https://housing.com/in/buy/projects/page/296600-gitanjali-gitabitan-by-gitanjali-realty-in-santiniketan" target="_blank" rel="nofollow noopener noreferrer">View on <strong>Housing</strong></a>
+                </div>
+                <div class="col-2-social-media">
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link" rel="noopener noreferrer">
+                        <img src="./images/About/facebook_logo_icon_147291.png" alt="Gitanjali-Gitabitan Facebook Page">
+                    </a>
+                    <a href="https://wa.me/918240704900" target="_blank" class="social-link" rel="noopener noreferrer">
+                        <img src="./images/About/whatsapp_logo_icon_147205.png" alt="Chat on Whatsapp">
+                    </a>
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link" rel="noopener noreferrer">
+                        <img src="./images/About/3721672-instagram_108066.png" alt="Gitanjali-Gitabitan Instagram Profile">
+                    </a>
+                    <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link" rel="noopener noreferrer">
+                        <img src="./images/About/yt.png" alt="Gitanjali-Gitabitan YouTube Channel">
+                    </a>
+                </div>
             </div>
-            <div class="phone-content">
-            <a href="tel:+918240704900">+91 8240704900</a>
-            <a href="tel:+916291129296">+91 6291129296</a>
-            <a href="tel:+918910966067">+91 8910966067</a> 
             </div>
-        </div>
 
-        <!-- e-mail -->
-        <div class="email">
-            <div class="email-logo">
-            <span class="material-symbols-outlined">Mail</span>
+            <div class="col-3">
+            <h3>LOCATION</h3>
+            <div class="location-container">
+                <iframe title="Map showing Gitanjali-Gitabitan location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.8708407957893!2d87.661744676151!3d23.716305978693697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9dd0b6b052aef%3A0x1583a5954db9cd5b!2sGitanjali%20Gitabitan!5e0!3m2!1sen!2sin!4v1753436680035!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="email-content">
-            <a href="mailto:soujit@gmail.com">soujit@gmail.com</a>
             </div>
-        </div>
+        </div> <!-- footer-main -->
 
-        </div> <!-- col-1 -->
+        <hr>
 
-        <div class="col-2">
-        <h3>CONNECT TO US</h3>
-        <div class="rest-content">
-            <div class="col-2-content">
-            <a href="https://www.99acres.com/gitanjali-gitabitan-bolpur-shantiniketan-npxid-r402436" target="_blank" rel="noopener">View on <strong>99acres</strong></a>
-            <a href="https://housing.com/in/buy/projects/page/296600-gitanjali-gitabitan-by-gitanjali-realty-in-santiniketan" target="_blank" rel="noopener">View on <strong>Housing</strong></a>
+        <div class="footer-end">
+            <div class="end-content">
+            <p>Copyright &copy; 2025. All rights reserved.</p>
+            <p>Developed by Gitanjali Realty — Real Estate Developer in Santiniketan, Birbhum, West Bengal.</p>
             </div>
-            <div class="col-2-social-media">
-                <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link">
-                    <img src="./images/About/facebook_logo_icon_147291.png" alt="">
-                </a>
-                <a href="https://wa.me/918240704900" target="_blank" class="social-link">
-                    <img src="./images/About/whatsapp_logo_icon_147205.png" alt="">
-                </a>
-                <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link">
-                    <img src="./images/About/3721672-instagram_108066.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-
-        <div class="col-3">
-        <h3>LOCATION</h3>
-        <div class="location-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.8708407957893!2d87.661744676151!3d23.716305978693697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9dd0b6b052aef%3A0x1583a5954db9cd5b!2sGitanjali%20Gitabitan!5e0!3m2!1sen!2sin!4v1753436680035!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        </div>
-    </div> <!-- footer-main -->
-
-    <hr>
-
-    <div class="footer-end">
-        <div class="end-content">
-        <p>Copyright &copy; 2025. All rights reserved.</p>
-        <p>Developed by Gitanjali Realty</p>
-        </div>
-        <a href="#nav-land" class="endBtn">
-        <span class="material-symbols-outlined">keyboard_control_key</span>
-        </a>
-    </div> <!-- footer-end -->
-    </div> <!-- container -->
+            <a href="#nav-land" class="endBtn">
+            <span class="material-symbols-outlined">keyboard_control_key</span>
+            </a>
+        </div> <!-- footer-end -->
+        </div> <!-- container -->
+    </footer>
 
 
 
@@ -569,10 +695,9 @@
 
 
 
-  <!-- form-write to us or request a callback , verify by uncle, footer and gallery 
-   add enquire btn in nav bar, redirect to other project sites or maps ,coupon code hostinger hi10, 99 cares, housing.com, navbar links
-   faq how far is it from santiniketan mela field?,is it sbi aproved , can i get loan, when can i come for site visit , is it organic , 
-
+  <!-- verify by uncle,
+   coupon code hostinger hi10,
+   
    <span itemprop="geo" itemscope itemtype="https://schema.org/GeoCoordinates">
   <meta itemprop="latitude" content="23.6792">
   <meta itemprop="longitude" content="87.6864">
