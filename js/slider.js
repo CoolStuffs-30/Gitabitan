@@ -25,7 +25,7 @@
       document.querySelector('.fourthSlidePic').src = './images/sliderPics/slide-mob/slider-mob-4.webp';
     } 
     else {
-     document.querySelector('.firstSlidePic').src = './images/sliderPics/slide-pc/slider-pc-1.webp';
+    //  document.querySelector('.firstSlidePic').src = './images/sliderPics/slide-pc/slider-pc-1.webp';
      document.querySelector('.secondSlidePic').src = './images/sliderPics/slide-pc/slider-pc-2.webp';
      document.querySelector('.thirdSlidePic').src = './images/sliderPics/slide-pc/slider-pc-3.webp';
      document.querySelector('.fourthSlidePic').src = './images/sliderPics/slide-pc/slider-pc-4.webp';
