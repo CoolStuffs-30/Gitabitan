@@ -14,7 +14,7 @@ body {
 .nav-land .swiper {
     height: 100%;
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 
 .nav-land .swiper-slide {
@@ -28,7 +28,7 @@ body {
 
 .nav-land .swiper-slide img {
     display: block;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     /* Make the image fill the slide */
