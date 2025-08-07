@@ -32,12 +32,12 @@ body {
     height: 100%;
     object-fit: cover;
     /* Make the image fill the slide */
-    /* transform: scale(1); */
-    /* transition: transform 10s ease; slow zoom over time */
+    transform: scale(1);
+    transition: transform 10s ease; /* slow zoom over time */
 }
 
 .nav-land .swiper-slide-active img {
-  /* transform: scale(1.1); slightly zoomed in */
+  transform: scale(1.1); /* slightly zoomed in */
 }
 
 .nav-land .swiper-pagination-bullet-active {
