@@ -19,7 +19,7 @@
 
   function updateImageSrc() {
     if (window.innerWidth <= 1200) {
-      document.querySelector('.firstSlidePic').src = './images/sliderPics/slide-mob/slider-mob-1.webp';
+      // document.querySelector('.firstSlidePic').src = './images/sliderPics/slide-mob/slider-mob-1.webp';
       document.querySelector('.secondSlidePic').src = './images/sliderPics/slide-mob/slider-mob-2.webp';
       document.querySelector('.thirdSlidePic').src = './images/sliderPics/slide-mob/slider-mob-3.webp';
       document.querySelector('.fourthSlidePic').src = './images/sliderPics/slide-mob/slider-mob-4.webp';
