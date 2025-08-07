@@ -26,7 +26,7 @@ body {
     align-items: center;
 }
 
-.nav-land .swiper-slide img {
+.nav-land .swiper-slide img ,.nav-land .swiper-slide picture {
     display: block;
     width: 100%;
     height: 100%;
