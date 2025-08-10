@@ -74,3 +74,11 @@
     .fab-option:hover {
       background: #555;
     }
+
+    /* Hide only this call icon */
+    .material-symbols-outlined.fab-icon {
+        visibility: hidden;
+    }
+    .material-symbols-outlined.fab-icon.font-loaded {
+        visibility: visible;
+    }

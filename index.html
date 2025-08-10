@@ -124,16 +124,6 @@
             visibility: visible !important;
             display: block !important;
         }
-        /* Hide only this call icon */
-        .material-symbols-outlined.fab-icon {
-            visibility: hidden;
-        }
-        .material-symbols-outlined.fab-icon.font-loaded {
-            visibility: visible;
-        }
-
-        
-
     </style>
 
     <script type="application/ld+json">
@@ -753,14 +743,6 @@
     <script src="./js/fab.js" defer></script>
     <script src="./js/form.js" defer></script>
     <script src="./js/scr_reveal.js" defer></script>  
-    
-<script>
-document.fonts.ready.then(() => {
-  const callIcon = document.querySelector('.material-symbols-outlined.fab-icon');
-  if (callIcon) callIcon.classList.add('font-loaded');
-});
-</script>
-
 
 </body>
 </html>
