@@ -11,7 +11,8 @@
     });
 
     document.getElementById('callback').addEventListener('click', () => {
-      window.location.href = '#form'; // Replace with actual page URL when ready
+      //window.location.href = '#form';
+      window.location.href = 'https://wa.me/918240704900'; // Whatsapp
     });
 
     document.fonts.ready.then(() => {
