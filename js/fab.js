@@ -7,7 +7,7 @@
     });
 
     document.getElementById('callus').addEventListener('click', () => {
-      window.location.href = 'tel:+918240704900'; // Replace with your phone number
+      window.location.href = 'tel:+916291129296'; // Replace with your phone number
     });
 
     document.getElementById('callback').addEventListener('click', () => {
