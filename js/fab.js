@@ -16,6 +16,6 @@
     });
 
     document.fonts.ready.then(() => {
-      const callIcon = document.querySelector('.material-symbols-outlined');
+      const callIcon = document.querySelector('.material-symbols-outlined.fab-icon');
       if (callIcon) callIcon.classList.add('font-loaded');
     });

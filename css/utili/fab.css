@@ -76,9 +76,9 @@
     }
 
     /* Hide only this call icon */
-    .material-symbols-outlined {
+    .material-symbols-outlined.fab-icon {
         visibility: hidden;
     }
-    .material-symbols-outlined.font-loaded {
+    .material-symbols-outlined.fab-icon.font-loaded {
         visibility: visible;
     }
